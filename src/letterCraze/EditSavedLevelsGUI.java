@@ -74,9 +74,13 @@ public class EditSavedLevelsGUI extends JFrame {
 		btnAnthonyGringeriAdded.setBounds(12, 193, 120, 79);
 		getContentPane().add(btnAnthonyGringeriAdded);
 		
-		JButton button_1 = new JButton("EMPTY");
-		button_1.setBounds(132, 193, 120, 79);
-		getContentPane().add(button_1);
+		JButton btnLabel = new JButton("label2");
+		btnLabel.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnLabel.setBounds(132, 193, 120, 79);
+		getContentPane().add(btnLabel);
 		
 		JButton button_2 = new JButton("EMPTY");
 		button_2.setBounds(253, 193, 120, 79);
